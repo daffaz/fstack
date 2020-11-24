@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', 'Testjuga@yes');
+Route::get('/cobacontroller', 'Testjuga@yes');
 
 Route::any('{slug}', function () {
     return view('welcome');
