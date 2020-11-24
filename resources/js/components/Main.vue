@@ -1,0 +1,5 @@
+<template>
+  <div>
+    <h1>First component</h1>
+  </div>
+</template>
