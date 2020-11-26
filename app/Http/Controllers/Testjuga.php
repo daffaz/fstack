@@ -8,6 +8,6 @@ class Testjuga extends Controller
 {
     public function yes()
     {
-        return view('welcome');
+        return "Controller";
     }
 }
